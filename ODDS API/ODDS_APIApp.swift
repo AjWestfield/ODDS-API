@@ -12,6 +12,7 @@ struct ODDS_APIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
         }
     }
 }
